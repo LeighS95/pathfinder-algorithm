@@ -7,10 +7,10 @@ import animateDijkstra from '../animations';
 
 import './pathfinder.css';
 
-const START_ROW = 0;
-const START_COL = 1;
-const END_ROW = 1;
-const END_COL = 10;
+const START_ROW = Math.floor(Math.random()*10);
+const START_COL = Math.floor(Math.random()*10);
+const END_ROW = Math.floor(Math.random()*10);
+const END_COL = Math.floor(Math.random()*10);
 
 export default class Pathfinder extends Component {
   constructor(props) {
